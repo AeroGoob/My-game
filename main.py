@@ -40,3 +40,6 @@ selected_piece = None
 selected_pos = None
 
 def init_board():
+  #pawns
+  for col in range(8):
+    board[1][col] = ChessPiece ('black', 'pawn','')
